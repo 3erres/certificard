@@ -1,0 +1,118 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&display=swap");
+
+body {
+  background: linear-gradient(236.85deg, #14746f 27.26%, #036666 96.03%);
+  font-family: "Lato", sans-serif;
+}
+
+.container {
+  background: #ecf4ff;
+  color: #1c1c1c;
+  margin: 64px;
+  border-radius: 20px;
+  box-shadow: 6px 6px 6px #0e1d2f;
+  padding: 64px;
+}
+
+. cabecalho {
+  display: flex;
+  justify-content: space-between;
+}
+
+.perfil {
+  display: flex;
+}
+
+.perfil-foto {
+  border-radius: 460px;
+  max-height: 260px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.titulo {
+  margin-left: 16px;
+}
+
+.titulo h1 {
+  font-weight: 700;
+  font-size: 40px;
+}
+
+.titulo h3 {
+  font-weight: 400;
+  font-size: 26px;
+}
+
+.tema button {
+  display: flex;
+  align-self: flex-end;
+  font-weight: 400;
+  font-size: 20px;
+  padding: 8px 16px;
+  box-sizing: border-box;
+  border-radius: 100px;
+  border: 2px solid #0e1d2f;
+}
+
+.dark {
+  background: linear-gradient(236.85deg, #375b86 27.26%, #6b87a9 96.03%);
+}
+
+.dark .container {
+  background: #333439;
+  color: #f6f6f6;
+}
+
+.dark .projetos {
+  color: #1c1c1c;
+  background: linear-gradient(230.65deg, #499cfe 27.49%, #9cc8fc 83.19%);
+}
+
+.dark .tema button {
+  background: #1c1c1c;
+  color: #ffffff;
+  border: 2px solid #f7f7f7;
+}
+
+.projetos {
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(236.85deg, #56ab91 27.26%, #469d89 96.03%);
+  margin-top: 32px;
+  padding: 32px;
+  border-radius: 20px;
+  box-shadow: 2px 2px 4px rgba(16, 16, 16, 0.42);
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.projetos-titulo {
+  list-style: none;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.projetos-item {
+  list-style-type: none;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 48px;
+}
+
+.projetos-item a {
+  color: #1c1c1c;
+  text-decoration: none;
+}
+
+/* .moldura-projetos {
+  background: linear-gradient(236.85deg, #56ab91 27.26%, #469d89 96.03%);
+  color: #1c1c1c;
+  margin-top: 35px;
+  margin-left: 15;
+  margin-right: 15;
+  margin-bottom: 15px;
+  border-radius: 20px;
+  box-shadow: 0px 4px 4px rgba(0.25, 0.25, 0.25, 0.25);
+  padding: 15px;
+}
+ */
